@@ -1,4 +1,4 @@
-FROM node:14-alpine as build
+FROM node:14-alpine AS build
 WORKDIR /opt/app
 ADD *.json ./
 RUN npm install
